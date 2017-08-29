@@ -1,0 +1,142 @@
+@media only screen and (orientation: portrait) {
+	footer div.cenFooter {
+		display: none;
+	}
+
+	footer div.left, footer div.right ul li {
+		font-size: 34px;
+	}
+
+	header {
+		flex-direction: column;
+		margin-bottom: 42px;
+		height: 76px;
+		padding: 7px 10px 0 10px;
+	}
+	
+	header div.logo {
+		font-size: 67px;
+	}
+
+	header nav#headerNav ul li {
+		font-size: 48px;
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	footer div.cenFooter {
+		display: block;
+	}
+
+	footer div.left, footer div.right ul li {
+		font-size: 22px;
+	}
+
+	header {
+		flex-direction: row;
+		margin-bottom: 0;
+		height: 67px;
+		padding: 0 10px 0 10px;
+	}
+	
+	header div.logo {
+		font-size: 59px;
+	}
+
+	header nav#headerNav ul li {
+		font-size: 32px;
+	}
+}
+
+* {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+h1 { font-size: 2.5em; font-family: 'Montserrat', sans-serif;}
+h2 { font-size: 1.5em; font-family: 'Montserrat', sans-serif;}
+h3 { font-size: 1.17em;font-family: 'Montserrat', sans-serif;}
+h5 { font-size: .83em; font-family: 'Montserrat', sans-serif;}
+h6 { font-size: .75em; font-family: 'Montserrat', sans-serif;}
+
+p {
+	font-size: 22px;
+	font-weight: 200;
+}
+
+li {
+	font-size: 22px;
+}
+
+.center {
+	align-content: center;
+}
+
+a {
+	color: #000;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #4b4b4b;
+	text-shadow: 1px 1px 4px #cbcbcb;
+}
+
+ul, li {
+	list-style: none;
+	margin: 0;
+}
+
+blockquote {
+	color: #787;
+	padding-left: 30px;
+	border-left: 2px solid #4169e1;
+}
+
+header {
+	height: 67px;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	padding: 0 10px 0 10px;
+	border-bottom: 2px solid #4b4b4b;
+}
+	
+	.logo {
+		font-size: 59px;
+		color: #4169e1;
+	}
+	
+	#headerNav ul li{
+		text-transform: uppercase;
+		padding: 0 6px;
+		font-weight: 300;
+		display: inline;
+		list-style: none;
+		font-size: 32px;
+	}
+
+	#headerNav ul li:nth-child(1) {
+		border-right: 1px solid #4b4b4b;
+	}
+
+.post {
+	display: flex;
+	flex-direction: column;
+	margin: 0 20px 25px;
+}
+
+.comments {
+	margin: 0 10px;	
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #4b4b4b;
+	align-items: center;
+	margin: 0 10px;
+}

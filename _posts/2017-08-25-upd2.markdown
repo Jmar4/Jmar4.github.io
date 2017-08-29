@@ -1,0 +1,12 @@
+---
+layout: post 
+title: UPD2 - comments
+comments: true
+date: 2017-08-25 13:29:59 +0300 
+categories: [life, обновление]
+theme: Обновление
+icon: cogs
+---
+<img src="https://thumb.ibb.co/gyCBrk/143580742812686844.jpg" alt="143580742812686844" border="0">
+
+Хей гайз, добавил комментарии disqus, может кому будет интересно)

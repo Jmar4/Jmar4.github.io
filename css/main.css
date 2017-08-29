@@ -1,0 +1,171 @@
+@media only screen and (orientation: portrait) {
+	footer div.cenFooter {
+		display: none;
+	}
+
+	footer div.left, footer div.right ul li {
+		font-size: 34px;
+	}
+
+	header {
+		flex-direction: column;
+		margin-bottom: 42px;
+		height: 76px;
+		padding: 7px 10px 0 10px;
+	}
+	
+	header div.logo {
+		font-size: 67px;
+	}
+
+	header nav#headerNav ul li {
+		font-size: 48px;
+	}
+}
+
+@media only screen and (orientation: landscape) {
+	footer div.cenFooter {
+		display: block;
+	}
+
+	footer div.left, footer div.right ul li {
+		font-size: 22px;
+	}
+
+	header {
+		flex-direction: row;
+		margin-bottom: 0;
+		height: 67px;
+		padding: 0 10px 0 10px;
+	}
+	
+	header div.logo {
+		font-size: 59px;
+	}
+
+	header nav#headerNav ul li {
+		font-size: 32px;
+	}
+}
+/* MEDIA END */
+
+* {
+	font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
+body {
+	margin: 0;
+}
+
+p, li {font-size: 22px; margin: 0;}
+
+ul {margin: 0;}
+
+h1 { font-size: 2.5em;  margin: 0;}
+h2 { font-size: 1.5em;  margin: 0;}
+h3 { font-size: 1.17em; margin: 0;}
+h4 { font-size: 1em;    margin: 0;}
+h5 { font-size: .83em;  margin: 0;}
+h6 { font-size: .75em;  margin: 0;}
+
+a {
+	color: #000;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+a:hover {
+	color: #4b4b4b;
+	text-shadow: 1px 1px 4px #cbcbcb;
+}
+
+#headerNav ul, #headerNav ul li {
+	list-style: none;
+	margin: 0;
+}
+
+header {
+	vertical-align: middle;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	border-bottom: 2px solid #4b4b4b;
+}
+	
+	.logo {
+		color: #4169e1;
+	}
+	
+	#headerNav ul li{
+		text-transform: uppercase;
+		padding: 0 6px;
+		font-weight: 300;
+		display: inline;
+		list-style: none;
+	}
+
+	#mobileBar {
+		display: none;
+	}
+
+	#headerNav ul li:nth-child(1) {
+		border-right: 1px solid #4b4b4b;
+	}
+
+.donate {
+	display: flex;
+	justify-content: center;	
+	text-align: center;
+	margin: 5px 0;
+}
+
+.blogPosts{
+	padding: 10px 0;
+	display: flex;
+	vertical-align: middle;
+}
+
+.blogPosts span{
+	color: #4169e1;
+}
+
+.blogPosts i{
+	color: #4169e1;
+	font-size: 35px;
+	margin-right: 8px;
+}
+
+.blogPosts p{
+	margin: 0;
+}
+
+#posts li{
+	list-style: none;
+}
+
+.productsList {
+	display: flex;
+	justify-content: space-around;
+}
+
+	.products ul li{
+		display: inline;
+	}
+
+content {
+	display: flex;
+	flex-direction: column;
+	margin: 15px 10px 0 10px;
+}
+
+footer {
+	display: flex;
+	justify-content: space-between;
+	border-top: 1px solid #4b4b4b;
+	align-items: center;
+	margin: 0 10px;
+}
+
+footer .right li, footer .right ul{
+	list-style: none;
+}
