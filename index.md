@@ -7,10 +7,10 @@ permalink: /
 Hey guys, you fall into my personal web site. For today I'm {{ site.yearsOld }} years old.
 My contacts you can find in the footer. So, I love write code and it doesn't depend what I exactly write.
 
-<i class="fa fa-vk" aria-hidden="true" style="margin-right: 21px"></i>[**My VK**](https://vk.com/jmar4) <br> 
-<i class="fa fa-github" aria-hidden="true" style="margin-right: 21px"></i>[**My Github**](https://github.com/Jmar4) <br> 
+<i class="fa fa-vk" aria-hidden="true" style="margin-right: 21px"></i>[**vk.com/jmar4**](https://vk.com/jmar4) <br> 
+<i class="fa fa-github" aria-hidden="true" style="margin-right: 21px"></i>[**github.com/Jmar4**](https://github.com/Jmar4) <br> 
 <i class="fa fa-telegram" aria-hidden="true" style="margin-right: 21px"></i>**My Telegram:Jmar4** <br> 
-<i class="fa fa-code" aria-hidden="true" style="margin-right: 21px"></i>[**My codeforces**](http://codeforces.com/profile/Jmar4) <br>
+<i class="fa fa-code" aria-hidden="true" style="margin-right: 21px"></i>[**codeforces.com/profile/Jmar4**](http://codeforces.com/profile/Jmar4) <br>
 
 
 # My list of literature.
