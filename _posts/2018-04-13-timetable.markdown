@@ -2,7 +2,7 @@
 layout: post 
 title: Перемены...
 date: 2018-04-13 13:02:55 +0300 
-categories: [math]
+categories: [life, math]
 theme: Математика.
 icon: bolt
 сomments: true
